@@ -1,0 +1,143 @@
+#apresentacao {
+    background-image: url(../../../../files/img/bg.png);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    padding: 0px 15rem;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 99% !important;
+    border-radius: 0 0 34px 34px;
+}
+
+#apresentacao .headline img {
+    width: 100%;
+    max-width: 170px;
+}
+
+.headline {
+    /* padding: 0 11.5rem; */
+}
+
+.headline h1 {
+    color: var(--cor-branco);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    width: 55%;
+    font-size: 40px;
+}
+
+.headline p {
+    color: var(--cor-branco);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    width: 58%;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin: 1.2rem 0 2rem 0;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    #apresentacao {
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        padding: 0px 15px;
+        width: 100% !important;
+    }
+
+    .headline h1 {
+        color: var(--cor-branco);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        width: 95%;
+        font-size: 19px;
+    }
+
+    #apresentacao .headline img {
+        max-width: 120px;
+    }
+
+    .headline p {
+        font-weight: 300;
+        width: 95%;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    #apresentacao {
+        padding: 0px 10rem;
+        width: 100% !important;
+        border-radius: 0 0 34px 34px;
+    }
+
+    #apresentacao .headline img {
+        width: 100%;
+        max-width: 120px;
+    }
+
+    .headline h1 {
+        width: 56%;
+        font-size: 27px;
+    }
+
+    .headline p {
+        color: var(--cor-branco);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        width: 58%;
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin: 1.2rem 0 2rem 0;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+    .headline h1 {
+        font-weight: 600;
+        width: 59%;
+        font-size: 38px;
+    }
+
+    .headline p {
+        font-weight: 300;
+        width: 58%;
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 1981px) and (max-width: 2560px) {
+    #apresentacao {
+        padding: 0px 30rem;
+    }
+
+    #apresentacao .headline img {
+        width: 100%;
+        max-width: 235px;
+    }
+
+    .headline h1 {
+        width: 55%;
+        font-size: 60px;
+    }
+
+    .headline p {
+        font-weight: 400;
+        width: 55%;
+        font-size: 36px;
+    }
+
+    a.btnPrincipal {
+        font-size: 28px;
+        font-weight: 400;
+        width: 450px;
+        height: 5rem;
+        border-radius: 70px;
+    }
+}
