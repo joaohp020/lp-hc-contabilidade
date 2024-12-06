@@ -25,6 +25,12 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1365px) {
+    #parceiros {
+        height: 230px;
+    }
+}
+
 @media (min-width: 1366px) and (max-width: 1440px) {
     #parceiros {
         height: 300px;
