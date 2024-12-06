@@ -4,7 +4,7 @@
     background-position: top;
     height: 100vh;
     padding: 0px 15rem;
-    background-color: #f0f0f0;
+    background-color: var(--cor-branco) !important;
     display: flex;
     justify-content: start;
     align-items: center;

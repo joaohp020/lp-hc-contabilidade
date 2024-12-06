@@ -1,12 +1,151 @@
+#porqueEscolher {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-branco);
+    gap: 3rem;
+    padding: 0 15rem;
+    height: 95vh;
+}
+
+#porqueEscolher img {
+    width: 450px;
+    background-size: cover;
+    background-position: top;
+}
+
+#porqueEscolher .texto {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#porqueEscolher .texto h3 {
+    color: var(--cor-azul-escuro);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    width: 95%;
+    font-size: 34px;
+}
+
+#porqueEscolher .texto h2 {
+    color: var(--cor-azul-escuro);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    width: 95%;
+    font-size: 40px;
+}
+
+#porqueEscolher .texto p {
+    color: var(--cor-azul-escuro);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    width: 94%;
+    font-size: 18px;
+    margin: 3rem 0 0 0;
+}
+
+#porqueEscolher .texto span {
+    color: var(--cor-cinza-escuro);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 
 @media (min-width: 320px) and (max-width: 768px) {
-    
+    #porqueEscolher {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        padding: 0 15px;
+        height: 125vh;
+    }
+
+    #porqueEscolher img {
+        width: 275px;
+        background-size: cover;
+        background-position: top;
+    }
+
+    #porqueEscolher .texto h3 {
+        font-size: 18px;
+    }
+
+    #porqueEscolher .texto h2 {
+        font-size: 25px;
+    }
+
+    #porqueEscolher .texto p {
+        width: 100%;
+        font-size: 14px;
+        margin: 1rem 0 0 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    #porqueEscolher {
+        height: 85vh;
+        padding: 0 10rem;
+    }
+
+    #porqueEscolher img {
+        width: 320px;
+    }
+
+    #porqueEscolher .texto h3 {
+        font-size: 18px;
+    }
+
+    #porqueEscolher .texto h2 {
+        font-size: 25px;
+    }
+
+    #porqueEscolher .texto p {
+        width: 100%;
+        font-size: 15px;
+        margin: 2rem 0 0 0;
+    }
 }
 
 @media (min-width: 1366px) and (max-width: 1440px) {
-    
+    #porqueEscolher .texto h3 {
+        font-size: 25px;
+    }
+
+    #porqueEscolher .texto h2 {
+        font-size: 32px;
+    }
+
+    #porqueEscolher .texto p {
+        width: 100%;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
 }
 
 @media (min-width: 1981px) and (max-width: 2560px) {
-    
+    #porqueEscolher {
+        gap: 3rem;
+        padding: 0 30rem;
+        height: 95vh;
+    }
+
+    #porqueEscolher img {
+        width: 750px;
+    }
+
+    #porqueEscolher .texto h3 {
+        font-size: 38px;
+    }
+
+    #porqueEscolher .texto h2 {
+        font-size: 45px;
+    }
+
+    #porqueEscolher .texto p {
+        width: 100%;
+        font-size: 34px;
+        letter-spacing: 3px;
+    }
 }

@@ -1,12 +1,176 @@
+section.linha {
+    width: 100%;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.linha img {
+    width: 70%;
+}
+
+footer {
+    width: 100%;
+    height: 25rem;
+    background-color: var(--cor-azul-escuro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 0 15rem;
+    margin: -1px 0 0 0
+}
+
+.dados {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+footer #logotipo {
+    width: 150px;
+}
+
+footer label {
+    color: var(--cor-branco);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+}
+
+footer p {
+    color: var(--cor-branco);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    /* width: 86%; */
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0 0 0;
+}
+
+footer .email,
+footer .telefone {
+    margin: -2.8rem 0 0 0;
+}
+
+footer p.rodape {
+    color: var(--cor-branco);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
 
 @media (min-width: 320px) and (max-width: 768px) {
-    
+    section.linha img {
+        width: 90%;
+    }
+
+    footer {
+        padding: 0 15px;
+        height: 95vh;
+        align-items: start;
+    }
+
+    .dados {
+        gap: 3rem;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    footer .email,
+    footer .telefone {
+        margin: -1.8rem 0 0 0;
+    }
+
+    #linha-vertical {
+        display: none;
+        /* transform: rotate(90deg) */
+    }
+
+    footer p.rodape {
+        font-size: 11px;
+        letter-spacing: 1px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    footer {
+        padding: 0 10rem;
+    }
+
+    .dados {
+        gap: 2rem;
+    }
+
+    footer #logotipo {
+        width: 115px;
+    }
+
+    footer label {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    footer p {
+        font-size: 11px;
+        letter-spacing: 0px;
+        line-height: 19px;
+        font-weight: 300;
+    }
+
+    footer p.rodape {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 1366px) and (max-width: 1440px) {
-    
+    footer #logotipo {
+        width: 160px;
+    }
+
+    footer label {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 11px;
+        letter-spacing: 0px;
+        line-height: 19px;
+        font-weight: 300;
+    }
+
+    footer p.rodape {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 1981px) and (max-width: 2560px) {
-    
+    footer #logotipo {
+        width: 210px;
+    }
+
+    footer label {
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        font-weight: 300;
+    }
+
+    footer p.rodape {
+        font-size: 20px;
+    }
 }
